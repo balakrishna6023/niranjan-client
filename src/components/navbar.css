@@ -1,0 +1,106 @@
+/* Navbar Styles */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(10, 25, 47, 0.95);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 80px;
+    color: white;
+    z-index: 1000;
+    height: 70px;
+    backdrop-filter: blur(10px);
+}
+
+/* Logo Section */
+.logo_section img {
+    width: 180px;
+    height: auto;
+}
+
+/* Navigation Links */
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 60px;
+    margin: 0;
+    padding: 0;
+}
+
+/* Mobile Menu Icon */
+.menu-icon {
+    display: none;
+    cursor: pointer;
+}
+
+.menu-icon img {
+    width: 35px;
+    height: auto;
+}
+.close-icon {
+    display: none; /* Hidden on larger screens */
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.close-icon img {
+    width: 30px; /* Reduce size */
+    height: 30px;
+}
+/* Mobile Responsive Navbar */
+@media (max-width: 768px) {
+    .navbar {
+        padding: 15px 30px;
+    }
+
+    /* Show menu icon */
+    .menu-icon {
+        display: block;
+    }
+
+    /* Mobile Menu */
+    .nav-links {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 60%;
+        height: 100vh;
+        background-color: rgba(10, 25, 47, 0.95);
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transition: right 0.3s ease-in-out;
+    }
+
+    /* Show menu when open */
+    .nav-links.mobile-menu {
+        right: 0;
+    }
+
+    .nav-links li {
+        font-size: 20px;
+        padding: 15px 0;
+    }
+
+    /* Close Button */
+    .close-icon {
+        display: block;
+        position: absolute;
+        top: 15px;
+        right: 20px;
+        cursor: pointer;
+    }
+
+    .close-icon img {
+        width: 30px;
+        height: 30px;
+    }
+    .nav-links.mobile-menu .close-icon {
+        display: block;
+    }
+}

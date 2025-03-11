@@ -1,0 +1,64 @@
+/* Services Page Styles */
+.services {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #0a192f, #1f4068);
+    color: white;
+    padding: 80px 10%;
+    text-align: center;
+}
+
+/* Heading */
+.heading {
+    font-size: 42px;
+    font-weight: bold;
+    color: #64ffda;
+    margin-bottom: 30px;
+}
+
+/* Services Container */
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+/* Service Card */
+.service-card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    width: 350px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+}
+
+.service-card h2 {
+    font-size: 24px;
+    color: #64ffda;
+    margin-bottom: 10px;
+}
+
+.service-card p {
+    font-size: 16px;
+    color: #e0e0e0;
+    line-height: 1.6;
+}
+
+/* Hover Effect */
+.service-card:hover {
+    transform: scale(1.05);
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+    .services-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .service-card {
+        width: 90%;
+    }
+}
