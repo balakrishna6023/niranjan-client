@@ -2,17 +2,17 @@ const mywork_data = [
     {
         course_name: "Java",
         course_description: "Comprehensive Java programming course covering OOP, collections, exception handling, multithreading, and web development.",
-        image_address: "https://tse4.mm.bing.net/th?id=OIP.Y_ivM4EXukRF8rYZip2gwgHaDx&pid=Api&P=0&h=180" // Replace with actual image URL
+        image_address: "https://tse1.mm.bing.net/th?id=OIP.vQpA3TUhXqnP5P7Lg4tBzAHaEK&pid=Api&P=0&h=180" // Replace with actual image URL
     },
     {
         course_name: "JavaScript",
         course_description: "In-depth JavaScript course covering ES6+, DOM manipulation, asynchronous programming, and front-end frameworks.",
-        image_address: "https://tse1.mm.bing.net/th?id=OIP.oDH9GCxGLEaVOP8FZ_eLLwHaGc&pid=Api&P=0&h=180" // Replace with actual image URL
+        image_address: "https://tse3.mm.bing.net/th?id=OIP.zmDZPFvLFIiT3PfNxgkS7gHaEK&pid=Api&P=0&h=180" // Replace with actual image URL
     },
     {
         course_name: "Python",
         course_description: "Complete Python programming course covering basics to advanced topics, including data science, machine learning, and automation.",
-        image_address: "https://example.com/images/python.jpg" // Replace with actual image URL
+        image_address: "https://tse4.mm.bing.net/th?id=OIP.Y_ivM4EXukRF8rYZip2gwgHaDx&pid=Api&P=0&h=180" // Replace with actual image URL
     },
     {
         course_name: "Web Development",
