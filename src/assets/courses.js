@@ -28,7 +28,7 @@ const mywork_data = [
         course_name: "Java Full Stack",
         course_description: "Java full-stack development course covering Spring Boot, Hibernate, REST APIs, and frontend frameworks.",
         image_address: "https://tse3.mm.bing.net/th?id=OIP.h5oNzxiYZnGSuIcJ6m6ycgHaEc&pid=Api&P=0&h=180" // Replace with actual image URL
-    }
+    },
 ];
 
 export default mywork_data;

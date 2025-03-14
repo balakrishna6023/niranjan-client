@@ -1,7 +1,7 @@
 /* Services Page Styles */
 .services {
     width: 100%;
-    min-height: 100vh;
+    min-height: 80vh;
     background: linear-gradient(135deg, #0a192f, #1f4068);
     color: white;
     padding: 80px 10%;
@@ -14,6 +14,7 @@
     font-weight: bold;
     color: #64ffda;
     margin-bottom: 30px;
+    word-spacing: 5px;
 }
 
 /* Services Container */
@@ -39,12 +40,14 @@
     font-size: 24px;
     color: #64ffda;
     margin-bottom: 10px;
+    word-spacing: 2px;
 }
 
 .service-card p {
     font-size: 16px;
     color: #e0e0e0;
     line-height: 1.6;
+    word-spacing: 2px;
 }
 
 /* Hover Effect */
@@ -54,11 +57,15 @@
 
 /* Responsive */
 @media (max-width: 900px) {
+    .services{
+        padding: 30px 5%;
+    }
     .services-container {
         flex-direction: column;
         align-items: center;
     }
     .service-card {
-        width: 90%;
+        width: 95%;
+        padding: 20px;
     }
 }

@@ -26,14 +26,14 @@ const CoursesPagination = () => {
 
   return (
     <motion.div
-      className="courses-container"
+      className="courses"
       ref={coursesRef}
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8 }}
       viewport={{ once: true }}
     >
-      <h2 className="course-title">Available Courses</h2>
+      <h1 className="course-title">Available Courses</h1>
       <div className="course-list grid-container">
         {currentCourses.map((course, index) => (
           <motion.div
@@ -50,7 +50,7 @@ const CoursesPagination = () => {
                 className="course-image"
               />
             </div>
-            <h3 className="course-title">{course.course_name}</h3>
+            <h3 className="course-title1">{course.course_name}</h3>
             <p className="course-description">{course.course_description}</p>
           </motion.div>
         ))}

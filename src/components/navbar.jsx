@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-scroll";
-import logo from "../assets/logo.png";
+import logo from "../assets/newlogo.jpg";
 import menuIcon from "../assets/icons8-menu-50.png";
 import closeIcon from "../assets/close.png";
 import "./navbar.css";
@@ -17,6 +17,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="logo_section">
         <img src={logo} alt="Company Logo" />
+        <h1>WellFo.AI</h1>
       </div>
 
       {/* Mobile Menu Icon (Opens the menu) */}
@@ -32,7 +33,7 @@ const Navbar = () => {
         </div>
 
         {/* Navigation Links */}
-        {["home", "about", "services", "contact"].map((item, index) => (
+        {["home", "about","courses", "services", "contact"].map((item, index) => (
           <li key={index}>
             <Link 
               to={item} 

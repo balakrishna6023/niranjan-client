@@ -12,6 +12,7 @@
     font-weight: bold;
     color: #64ffda;
     margin-bottom: 10px;
+    word-spacing: 5px;
 }
 
 .subheading {
@@ -46,6 +47,8 @@
 .contact-form input::placeholder,
 .contact-form textarea::placeholder {
     color: rgba(255, 255, 255, 0.6);
+    word-spacing: 2px;
+    letter-spacing: 1px;
 }
 
 .contact-form button {
@@ -70,7 +73,12 @@
 }
 
 @media (max-width: 600px) {
+    .contact{
+        padding: 40px 5%;
+    }
     .contact-form {
         width: 100%;
+        padding: 20px 5%;
+        
     }
 }

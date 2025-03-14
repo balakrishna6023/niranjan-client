@@ -6,14 +6,14 @@ import Services from "./components/Services";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-import CoursesPagination from "./components/CoursesPagination";
+import Courses from "./components/CoursesPagination";
 function App() {
   return (
     <div className="App">
       <Navbar />
       <Home />
       <About />
-      <CoursesPagination/>
+      <Courses/>
       <Services />
       <Contact />
       <Footer />

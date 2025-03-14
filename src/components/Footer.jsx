@@ -17,10 +17,10 @@ const Footer = () => {
 
         {/* Right Section - Social Media Icons */}
         <div className="footer-socials">
-          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><FaFacebook /></a>
-          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
-          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
-          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
+          {/* <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><FaFacebook /></a> */}
+          <a href="https://x.com/wellfo_ai?s=11" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
+          <a href="https://www.instagram.com/wellfo_ai_solutions?igsh=bmhjZnBqMG8ycTZv" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
+          {/* <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a> */}
         </div>
       </div>
 

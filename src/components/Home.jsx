@@ -11,13 +11,12 @@ const Home = () => {
       {/* Main Content Section */}
       <div className="content">
         <div className="left">
-          <h1 className="heading">Welcome to Wellfo</h1>
+          <h1 className="heading1">Welcome to Wellfo</h1>
           <p className="para">
             We specialize in AI-powered website solutions and student training
             programs, helping businesses and learners leverage the power of
             artificial intelligence.
           </p>
-          <button className="learn-more">Learn More</button>
         </div>
         <div className="right">
           <img src={image} alt="AI Innovation" className="home-image" />
