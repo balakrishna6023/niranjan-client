@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { Link } from "react-scroll";
 import logo from "../assets/newlogo.jpg";
-import menuIcon from "../assets/icons8-menu-50.png";
-import closeIcon from "../assets/close.png";
+import menuIcon from "../assets/newmenu.gif";
+import closeIcon from "../assets/newclose.png";
 import "./navbar.css";
 
 const Navbar = () => {
@@ -47,6 +47,7 @@ const Navbar = () => {
         ))}
       </ul>
     </nav>
+    
   );
 };
 
