@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-scroll";
-import logo from "../assets/newlogo.jpg";
+import logo from "../assets/updatedlogo.png";
 import menuIcon from "../assets/newmenu.gif";
 import closeIcon from "../assets/newclose.png";
 import "./navbar.css";
@@ -33,21 +33,22 @@ const Navbar = () => {
         </div>
 
         {/* Navigation Links */}
-        {["home", "about","courses", "services", "contact"].map((item, index) => (
-          <li key={index}>
-            <Link 
-              to={item} 
-              smooth={true} 
-              duration={500} 
-              onClick={toggleMenu}  // Close menu when a link is clicked
-            >
-              {item.charAt(0).toUpperCase() + item.slice(1)}
-            </Link>
-          </li>
-        ))}
+        {["home", "about", "courses", "services", "contact"].map(
+          (item, index) => (
+            <li key={index}>
+              <Link
+                to={item}
+                smooth={true}
+                duration={500}
+                onClick={toggleMenu} // Close menu when a link is clicked
+              >
+                {item.charAt(0).toUpperCase() + item.slice(1)}
+              </Link>
+            </li>
+          )
+        )}
       </ul>
     </nav>
-    
   );
 };
 
