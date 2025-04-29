@@ -34,7 +34,8 @@
     transition: transform 0.3s ease;
 }
 .logo_section h1{
-    text-shadow: 2px 2px 3px #64ffda;
+    text-shadow: 2px 2px 3px #EA9B1E;
+    color: #EA9B1E;
 }
 
 .logo_section img:hover {
